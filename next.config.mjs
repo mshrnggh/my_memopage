@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
-
-module.exports = {
+const nextConfig = {
   // Use the prefix in the Next.js router
   basePath: '/your-repo-name',
   assetPrefix: '/your-repo-name/',
-  output: 'export', 
-}
+  // output: 'export', // Remove this line
+};
+
+export default nextConfig;
