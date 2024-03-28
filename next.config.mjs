@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Use the prefix in the Next.js router
-  basePath: '/mshrnggh/',
-  assetPrefix: '/mshrnggh/',
+  basePath: '/mshrnggh',
+  assetPrefix: '/mshrnggh',
   // Add this configuration
   async exportPathMap(defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {
